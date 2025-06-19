@@ -95,7 +95,7 @@ plt.ylabel("Average Rating")
 plt.tight_layout()
 plt.show()
 
-# STEP 17: Save predictions to CSV (optional)
+# STEP 16: Save predictions to CSV (optional)
 results_df = pd.DataFrame({'Actual Rating': y_test, 'Predicted Rating': y_pred})
 results_df.to_csv("predicted_movie_ratings.csv", index=False)
 print("✅ Predictions saved to 'predicted_movie_ratings.csv'")
