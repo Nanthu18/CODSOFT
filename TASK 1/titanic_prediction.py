@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import LabelEncoder
 
 # ==== STEP 1: Load Data ====
-train_path = "C:\\Users\\nanthinisenthil18\\Desktop\\titanic_prediction\\train.csv"
+train_path = pd.read_csv("train.csv")
 print("🚀 Loading dataset...")
 df = pd.read_csv(train_path)
 print("✅ Data loaded:", df.shape)
